@@ -1,0 +1,62 @@
+{
+  "name": "awesome-code-frame",
+  "version": "0.0.0-development",
+  "description": "Fork of @babel/code-frame with modern dependencies and exports",
+  "author": "Gustaf Räntilä",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grantila/awesome-code-frame/issues"
+  },
+  "homepage": "https://github.com/grantila/awesome-code-frame#readme",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.prod.json",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "cz": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantila/awesome-code-frame"
+  },
+  "keywords": [
+    "code",
+    "frame",
+    "babel",
+    "awesome"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/babel__helper-validator-identifier": "^7.15.0",
+    "@types/charcodes": "^0.2.0",
+    "@types/jest": "^27.4.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "jest": "^28.0.3",
+    "rimraf": "^3.0.2",
+    "strip-ansi": "^7.0.1",
+    "ts-jest-resolver": "^2.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@babel/helper-validator-identifier": "^7.16.7",
+    "chalk": "^5.0.1",
+    "charcodes": "^0.2.0",
+    "js-tokens": "^7.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
