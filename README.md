@@ -9,7 +9,7 @@
 
 ## What is this?
 
-This is a fork of [@babel/code-frame](https://www.npmjs.com/package/@babel/code-frame) with the latest dependencies (e.g of [chalk](https://www.npmjs.com/package/chalk)) and exported as a [pure ESM][pure-esm] package.
+This is a fork of [@babel/code-frame](https://www.npmjs.com/package/@babel/code-frame) with the latest dependencies (e.g of [chalk](https://www.npmjs.com/package/chalk)) and exported as a [pure ESM][pure-esm] package. It uses the latest chalk, which means it requires support for package imports. If this causes problems in Jest for you, see [this issue](https://github.com/chalk/chalk/issues/532) for help.
 
 
 # Usage
