@@ -2,7 +2,6 @@
 [![downloads][downloads-image]][npm-url]
 [![build status][build-image]][build-url]
 [![coverage status][coverage-image]][coverage-url]
-[![Language grade: JavaScript][lgtm-image]][lgtm-url]
 
 
 # awesome-code-frame
@@ -75,10 +74,8 @@ export interface Options {
 [npm-image]: https://img.shields.io/npm/v/awesome-code-frame.svg
 [npm-url]: https://npmjs.org/package/awesome-code-frame
 [downloads-image]: https://img.shields.io/npm/dm/awesome-code-frame.svg
-[build-image]: https://img.shields.io/github/workflow/status/grantila/awesome-code-frame/Master.svg
+[build-image]: https://img.shields.io/github/actions/workflow/status/grantila/awesome-code-frame/master.yml?branch=master
 [build-url]: https://github.com/grantila/awesome-code-frame/actions?query=workflow%3AMaster
 [coverage-image]: https://coveralls.io/repos/github/grantila/awesome-code-frame/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/grantila/awesome-code-frame?branch=master
-[lgtm-image]: https://img.shields.io/lgtm/grade/javascript/g/grantila/awesome-code-frame.svg?logo=lgtm&logoWidth=18
-[lgtm-url]: https://lgtm.com/projects/g/grantila/awesome-code-frame/context:javascript
 [pure-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
